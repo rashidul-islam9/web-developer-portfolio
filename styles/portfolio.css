@@ -27,6 +27,7 @@ pen-sans-font    font-weight: <weight>;
     padding: 18px 35px;
     border-radius: 5px;
    border: none;
+margin-right: 12px;
 }
 
 .nav-title{
@@ -139,3 +140,37 @@ main{
     padding: 30px;
     box-shadow: 6px 0px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+/* resume */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    color: #474747 ;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.experience-sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+ .experience-description{
+    color: #757575;
+    font-size: 16px;
+ }  
+
+.cv-btn{
+    text-align: center;
+    margin-top: 50px;
